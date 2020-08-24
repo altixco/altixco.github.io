@@ -1,7 +1,6 @@
 ---
 layout: stack
 title: Django
-order: 2
 headline: The web framework for perfectionists with deadlines.
 tags: Python, Backend, Frontend, API, REST, Web
 icon: /assets/img/django.ico
