@@ -2,9 +2,11 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 title: Introduction 💻
 ---
+
+# Introduction 💻
 
 **Altix** is a Software Development Company focused on developing custom software using modern technologies and methodologies.
 
@@ -12,7 +14,9 @@ We try to keep our knowledge up to the latest trends. Focusing on quality for th
 
 We develop Software for companies from Europe, United States, and also Colombia. We believe in our Worldwide class capabilities due to our experience. Therefore we value compromise, quality, and good communication both in Spanish and English.
 
-# Links 🔗
+- See: [Altix Presentation](/assets/pdf/PresentationAltixSAS.pdf){:target="_blank"}
+
+# Links
 
 ## ![](/assets/img/altix.png) Website:
 [http://altix.co/](http://altix.co/){:target="_blank"}
@@ -26,7 +30,7 @@ We develop Software for companies from Europe, United States, and also Colombia.
 ## ![](/assets/img/facebook.ico) Facebook:
 [https://www.facebook.com/altix.co](https://www.facebook.com/altix.co){:target="_blank"}
 
-# Principles 💭
+# Principles
 
 ## 1. Don't Repeat Yourself
 
@@ -67,3 +71,8 @@ def factorial(number):
 > **Note** that a good code is self-documenting, in the first method the comment was required because the name of the method didn't inform what it does, in the Good code the method itself informs that it returns the factorial of a number, and it also accomplishes the same in a single line of code.
 
 > **However**, it doesn't mean all the code should not be documented, documentation is important and required in a lot of cases.
+
+
+# Next
+
+- [Getting Started](/getting-started/)
