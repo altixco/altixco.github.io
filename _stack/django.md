@@ -1,6 +1,7 @@
 ---
 layout: stack
 title: Django
+short_name: django
 headline: The web framework for perfectionists with deadlines.
 tags: Python, Backend, Frontend, API, REST, Web
 icon: /assets/img/django.ico
@@ -30,3 +31,7 @@ At **Altix** we use Django in almost all the projects.
 - [Model Field Reference](https://docs.djangoproject.com/en/3.1/ref/models/fields/){:target="_blank"}
 - [URLS](https://docs.djangoproject.com/en/3.1/topics/http/urls/){:target="_blank"}
 - [Writing views](https://docs.djangoproject.com/en/3.1/topics/http/views/){:target="_blank"}
+
+## Templates
+
+- [altixco/django-postgres-dokku](https://github.com/altixco/django-postgres-dokku)

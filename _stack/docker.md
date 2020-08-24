@@ -1,6 +1,7 @@
 ---
 layout: stack
 title: Docker
+short_name: docker
 headline: Helps to share development environments with ease.
 tags: Infrastructure, DevOps, Development
 icon: /assets/img/docker.png

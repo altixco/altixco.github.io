@@ -16,10 +16,9 @@ layout: default
 
 {{ content }}
 
-{% assign title = page.title | downcase %}
-{% assign filtered_posts = site.posts | where: 'tags', title %}
+{% assign filtered_posts = site.posts | where: 'tags', page.short_name %}
 
-{%- if filtered_posts -%}
+{%- if filtered_posts.size > 0 -%}
   <h1>Related Posts</h1>
   <ul>
     {% for post in filtered_posts %}
