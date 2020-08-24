@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h1 class="mt-1">
+  <img src="{{ page.icon }}" width="30" alt="">
+  {{ page.title }}
+</h1>
+<b>Website:</b> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+<p class="post-meta mb-0">{{ page.tags }}</p>
+<p class="mt-1">{{ page.headline }}</p>
+
+{%- if page.video -%}
+  <iframe width="100%" height="400px" style="margin-bottom: 20px" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{%- endif -%}
+
+{{ content }}
+
+{% assign title = page.title | downcase %}
+{% assign filtered_posts = site.posts | where: 'tags', title %}
+
+{%- if filtered_posts -%}
+  <h1>Related Posts</h1>
+  <ul>
+    {% for post in filtered_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{%- endif -%}
