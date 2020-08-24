@@ -12,6 +12,12 @@ Gitflow is our preferred way of collaborating and managing code versions.
 
 Our branching model is based on **Gitflow**, the variation is present in the `release` and `hotfix` branches because of the requirement of supporting two versions of the system, here are the details of the branches:
 
+## GIT
+
+Gitflow is the workflow, but Git is the tool, in case you don't have experience with Git, here is an useful that explains the basics:
+
+<iframe width="100%" height="400px" style="margin-bottom: 20px" src="https://www.youtube.com/embed/hwP7WQkmECE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## The **Master** branch
 The HEAD of the `master` branch should always reflect a production-ready state, the latest commit of this branch reflects the current state of the production environment.
 

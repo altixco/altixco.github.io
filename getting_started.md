@@ -10,6 +10,8 @@ Welcome to Altix!. We're so glad you are here. Let's get started.
 
 # Prerequisites
 
+- GIT
+- Docker
 - A [Github](https://github.com/) account
 - A [Trello](https://trello.com/) account
 - A lot of enthusiasms 😁
