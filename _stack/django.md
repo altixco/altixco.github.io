@@ -34,4 +34,4 @@ At **Altix** we use Django in almost all the projects.
 
 ## Templates
 
-- [altixco/django-postgres-dokku](https://github.com/altixco/django-postgres-dokku)
+- [altixco/django-postgres-dokku](https://github.com/altixco/django-postgres-dokku){:target="_blank"}
