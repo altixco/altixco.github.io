@@ -66,4 +66,4 @@ The `fix` branches are used for solving bugs, doing small improvements, or solvi
 
 # Next
 
-- [Stack](/stack/django.md)
+- [Stack](/stack/)

@@ -32,6 +32,17 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  stack:
+    output: true
+
+header_pages:
+  - index.md
+  - getting_started.md
+  - gitflow.md
+  - stack.html
+  - posts.html
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
