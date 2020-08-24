@@ -3,7 +3,7 @@ tags: android
 author: Edison Arango
 ---
 
-## APK Sign
+## Sign APK
 
 ```
 keytool -genkey -v -keystore signtix.keystore  -keyalg RSA -keysize 2048 -validity 10000 -alias signtix
