@@ -1,0 +1,17 @@
+---
+layout: default
+title: Stack ⚙️
+permalink: /stack/
+---
+
+<h1>Stack ⚙️</h1>
+
+{% for stack_item in site.stack %}
+  <h2 class="mt-1">
+    <a href="{{ stack_item.url }}">
+      {{ stack_item.title }}
+    </a>
+  </h2>
+  <p class="mb-0">{{ stack_item.description }}</p>
+  <p class="post-meta">{{ stack_item.tags }}</p>
+{% endfor %}
