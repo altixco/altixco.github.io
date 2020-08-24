@@ -41,6 +41,7 @@ header_pages:
   - getting_started.md
   - gitflow.md
   - stack.html
+  - techniques.md
   - posts.html
 
 # Exclude from processing.
