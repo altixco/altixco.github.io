@@ -22,7 +22,7 @@ Welcome to Altix!. We're so glad you are here. Let's get started.
 
 ![](/assets/img/vs-code.png)
 
-This is the best code editor in our opinion, it can be used for any development so we recommend it for front-end development:
+This is the best code editor in our opinion, it can be used for any development but we recommend it for front-end development:
 
 - Javascript
 - Typescript
@@ -64,7 +64,7 @@ Download Link: <https://www.jetbrains.com/pycharm/>
 
 ![](/assets/img/rubymine.png)
 
-Developed by the same company that develop Pycharm, Rubymine is the best IDE for Ruby and Ruby on Rails Development.
+Created by the same company that develops Pycharm, Rubymine is the best IDE for Ruby and Ruby on Rails Development.
 
 Download Link: <https://www.jetbrains.com/ruby/>
 

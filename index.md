@@ -10,7 +10,7 @@ title: Introduction 💻
 
 **Altix** is a Software Development Company focused on developing custom software using modern technologies and methodologies.
 
-We try to keep our knowledge up whit the latest trends. Focusing on quality for the sake of customer satisfaction.
+We try to keep our knowledge up to the latest trends. Focusing on quality for the sake of customer satisfaction.
 
 We develop Software for companies from Europe, United States, and also Colombia. We believe in our Worldwide class capabilities due to our experience. Therefore, we value compromise, quality, and good communication, both in Spanish and English.
 
