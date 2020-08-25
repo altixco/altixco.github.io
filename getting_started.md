@@ -54,7 +54,7 @@ Download link: <https://code.visualstudio.com/>
 
 ![](/assets/img/pycharm.jpg)
 
-Pycharm is the best IDE out there for profesional Python development, this is our preferred editor for devoping Django webapps or APIs.
+Pycharm is the best IDE out there for professional Python development, this is our preferred editor for developing Django webapps or APIs.
 
 Download Link: <https://www.jetbrains.com/pycharm/>
 
