@@ -14,7 +14,7 @@ Our branching model is based on **Gitflow**, the variation is present in the `re
 
 ## GIT
 
-Gitflow is the workflow, but Git is the tool, in case you don't have experience with Git, here is an useful that explains the basics:
+Gitflow is the workflow, but Git is the tool, in case you don't have experience with Git, here is an useful video that explains the basics:
 
 <iframe width="100%" height="400px" style="margin-bottom: 20px" src="https://www.youtube.com/embed/hwP7WQkmECE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -37,7 +37,7 @@ Must merge back into:
 Naming convention:
 - `feature/*` or anything except `master`, `develop`, `release`, `hotfix`, `fix`.
 
-Feature branches are used to develop new features, configurations, or even refactors, the name of these branches may be for instance config/my-config refactor/my-refactor, or just feature/my-config or refactor/my-refactor.
+Feature branches are used to develop new features, configurations, or even refactors, the name of these branches may be for instance config/my-config refactor/my-refactor, or just feature/my-config.
 
 ### **Release** branches
 

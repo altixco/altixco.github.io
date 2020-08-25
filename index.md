@@ -10,9 +10,9 @@ title: Introduction 💻
 
 **Altix** is a Software Development Company focused on developing custom software using modern technologies and methodologies.
 
-We try to keep our knowledge up to the latest trends. Focusing on quality for the sake of customer satisfaction.
+We try to keep our knowledge up whit the latest trends. Focusing on quality for the sake of customer satisfaction.
 
-We develop Software for companies from Europe, United States, and also Colombia. We believe in our Worldwide class capabilities due to our experience. Therefore we value compromise, quality, and good communication both in Spanish and English.
+We develop Software for companies from Europe, United States, and also Colombia. We believe in our Worldwide class capabilities due to our experience. Therefore, we value compromise, quality, and good communication, both in Spanish and English.
 
 - See: [Altix Presentation](/assets/pdf/PresentationAltixSAS.pdf){:target="_blank"}
 
@@ -33,7 +33,7 @@ We develop Software for companies from Europe, United States, and also Colombia.
 # Principles
 
 ## 1. Don't Repeat Yourself
-
+ 
 Don't repeat yourself (`DRY`) is a principle of software development aimed at reducing repetition of software patterns, replacing it with abstractions or using data normalization to avoid redundancy.
 
 As a general rule, if you find yourself copying and pasting code, or repeating it in a similar manner, don't do that. Either create a `Function`, a `Class`, a `Module`, or some kind of `Abstraction`.
