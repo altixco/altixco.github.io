@@ -14,3 +14,9 @@
 bundle install
 bundle exec jekyll serve
 ```
+
+## Docker
+```
+docker-compose up
+````
+
