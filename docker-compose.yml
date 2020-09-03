@@ -1,10 +1,15 @@
+#VERSION COMPATIBLE DEL DOCKER CON EL COMPOSE
 version: '3.8'
 
 services:
+  #COMO LLAMÉ LA IMAGEN  
   knowledge:
     container_name: knowledge
+    #SE CONSTRUYE AQUI 
     build: .
     volumes:
+    #area de almacenamiento
       - ./:/app
+    #PUERTOS DONDE SE COMUNICAN   
     ports:
       - "4000:4000"
