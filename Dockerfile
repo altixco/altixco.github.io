@@ -8,5 +8,5 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install
 # PARA QUE SE COPIE TODO AQUI
 COPY . .
-# jeckyll es un framework para que se abra la pagina y se pueda comunicar el pc con el contenedor
+# jekyll es el framework usado en el proyecto, este comando se usa para inicial el servidor de jekyll y se pueda comunicar el PC con el contenedor
 CMD bundle exec jekyll serve --host 0.0.0.0
