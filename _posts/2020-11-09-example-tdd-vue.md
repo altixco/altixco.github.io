@@ -5,15 +5,15 @@ tags: vuejs, tdd
 author: Sebastian Peralta
 ---
 
-TDD is a practice where you write test before code, this with the end of have the best product possible, the advantage has it is forces you to think before you code. the cycle of TDD is the next:
+TDD is a practice where you write tests before coding, this purpose of TDD is to have the best possible product, its main advantage is that it forces you to think before you code. the cycle of TDD is the next:
 
-  1. you describe a test which an expected behaivor. (it is will fail)
-  2. you write code simple that solution the test.
-  3. refactor code for to make rigth.
+  1. you describe a test with the expected behavior. (here it should fail, the failing is important to ensure both states of the test, the *failure* state, and the *success* state)
+  2. you code a simple solution that solves the test.
+  3. refactor code to make rigth  it professional 👌.
 
-quick example (vue, jest):
+### Quick example (vue, jest):
 
-- We will create a component in vue that displays a list of colors. The first thing to do would be to write the proof corresponding to this logic:
+- We will create a component in vue that displays a list of colors. The first thing to do would be to write the test corresponding to this logic:
 
 ``` 
 import { shallowMount } from '@vue/test-utils'
