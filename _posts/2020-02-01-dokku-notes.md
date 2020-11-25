@@ -75,3 +75,7 @@ if ($request_method = OPTIONS) {
   return 204;
 }
 ```
+then restart nginx:
+
+`sudo systemctl restart nginx`
+
