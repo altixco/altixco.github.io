@@ -59,3 +59,19 @@ server {
   return 444;
 }
 ```
+
+## Fix allow CORS: Access-Control-Allow-Origin  
+
+nginx configuration `cors` should be placed server side in: `/home/dokku/<app>/nginx.conf.d/cors.conf`
+
+should look like:
+
+```
+add_header "Access-Control-Allow-Origin" * always;
+add_header "Access-Control-Allow-Methods" "GET, POST, PUT, OPTIONS, HEAD, PATCH, DELETE" always;
+add_header "Access-Control-Allow-Headers" "Authorization, Origin, X-Requested-With, Content-Type, Accept" always;
+
+if ($request_method = OPTIONS) {
+  return 204;
+}
+```
