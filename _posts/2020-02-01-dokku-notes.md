@@ -77,5 +77,14 @@ if ($request_method = OPTIONS) {
 ```
 then restart nginx:
 
-`sudo systemctl restart nginx`
+`sudo systemctl reload nginx`
 
+## How to set volume for dokku-persistent-storage
+
+Run the following command to link the storage directory for that app to the `/src/media` folder, for example:
+
+`dokku storage:mount <app> /home/dokku/<app>/media:/src/media`
+
+List bind mounts for app's container(s) (host:container)
+
+`dokku storage:list <app>`
