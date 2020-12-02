@@ -26,7 +26,7 @@ The flow is similar for **development** and **production** environments. These s
 **Step 2** Create Key .pem from Key .p12
 
 ```
-    $ openssl pkcs12 -nocerts -out aps-key.pem -in Certificates.p1
+    $ openssl pkcs12 -nocerts -out aps-key.pem -in Certificates.p12
 ```
 
 **Step 3** Remove pass phrase on the key
