@@ -50,3 +50,7 @@ The flow is similar for **development** and **production** environments. These s
 If the certificate and key are valid, the connection will open and remain open. If it is not the connection will be closed and an error potentially displayed.
 
 To test if the certificate works in sandbox mode, simply replace the `gateway` with `gateway.sandbox.push.apple.com:2195`.
+
+```
+    $ openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert aps-cert.pem -key aps-key-noenc.pem
+```
