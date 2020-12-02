@@ -32,19 +32,19 @@ The flow is similar for **development** and **production** environments. These s
 **Step 3** Remove pass phrase on the key
 
 ```
-	$ openssl rsa -in aps-key.pem -out aps-key-noenc.pem
+   $ openssl rsa -in aps-key.pem -out aps-key-noenc.pem
 ```  
 
 **Step 4** Combine the two into one file
 
 ```
-	$ cat aps-cert.pem aps-key-noenc.pem > aps.pem
+    $ cat aps-cert.pem aps-key-noenc.pem > aps.pem
 ```
 
 **Step 5** Check certificate validity and connectivity to APNS
 
 ```
-	$ openssl s_client -connect gateway.push.apple.com:2195 -cert aps-cert.pem -key aps-key-noenc.pem
+    $ openssl s_client -connect gateway.push.apple.com:2195 -cert aps-cert.pem -key aps-key-noenc.pem
 ```
 
 If the certificate and key are valid, the connection will open and remain open. If it is not the connection will be closed and an error potentially displayed.
