@@ -1,32 +1,25 @@
 Generation of an APNS PEM file
 ------------------------------
 
-The ``APNS_CERTIFICATE`` setting must reference the location of a PEM file. This file must
-contain a certificate and private key pair allowing a secure connection to Apple's push gateway.
+The ``APNS_CERTIFICATE`` setting must reference the location of a PEM file. This file must contain a certificate and private key pair allowing a secure connection to Apple's push gateway.
 
 These instructions assume the use of Mac OS X.
 
 There are two main steps involved; generating the certificate, then conversion of this certificate into `PEM` format for use with this library.
 
-**Generating the push certificate**
+## Generating the push certificate
 
-Using `Apple's Developer site <https://developer.apple.com/account>`_ you need to generate a push notification certificate for either development or production. There are countless instructions online and Apple change their flow for this regularly, so it is not documented here. The end result should be an exported certificate and private key with the `p12` extension.
+Using `Apple's Developer site <https://developer.apple.com/account>`_ you need to generate a push notification certificate for either development or production. It is documented [here](https://knowledge.altix.co/2020/12/02/Generate-APNS-certificate-for-iOS-Push-Notifications.html). 
 
-When initiating the certificate generation flow in Apple's Dev site, do this from within the specific app's configuration:
+The end result should be an exported certificate and private key with the `p12` extension.
 
-	Identifiers -> App IDs -> [Your App] -> Edit -> Push Notifications Section (Create Certificate) .
+## Converting the certificate to `PEM` format
 
-If you initiate this flow from the top level `Certificates` section, the resulting export may contain both sandbox and production certificates and keys, which confuses matters a lot.
-
-**Converting the certificate to `PEM` format**
-
-The flow is similar for development and production environments. These steps are adapted from `a Stack Overflow post <https://stackoverflow.com/a/27942504/4664727>`_.
+The flow is similar for **development** and **production** environments. These steps are adapted from `a Stack Overflow post <https://stackoverflow.com/a/27942504/4664727>`_.
 
 **Step 1:** Create Certificate .pem from Certificate .p12
 
-.. code-block:: bash
-
-    $ openssl pkcs12 -clcerts -nokeys -out aps-cert.pem -in Certificates.p12
+```$ openssl pkcs12 -clcerts -nokeys -out aps-cert.pem -in Certificates.p12```
 
 **Step 2** Create Key .pem from Key .p12
 
