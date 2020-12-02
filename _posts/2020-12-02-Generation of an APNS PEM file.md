@@ -15,7 +15,7 @@ The end result should be an exported certificate and private key with the `p12` 
 
 ## Converting the certificate to `PEM` format
 
-The flow is similar for **development** and **production** environments. These steps are adapted from `a Stack Overflow post <https://stackoverflow.com/a/27942504/4664727>`_.
+The flow is similar for **development** and **production** environments. These steps are adapted from a [Stack Overflow post](https://stackoverflow.com/a/27942504/4664727)
 
 **Step 1:** Create Certificate .pem from Certificate .p12
 
