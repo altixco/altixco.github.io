@@ -20,7 +20,7 @@ The flow is similar for **development** and **production** environments. These s
 **Step 1:** Create Certificate .pem from Certificate .p12
 
 ```
-   $ openssl pkcs12 -clcerts -nokeys -out aps-cert.pem -in Certificates.p12
+    $ openssl pkcs12 -clcerts -nokeys -out aps-cert.pem -in Certificates.p12
 ```
 
 **Step 2** Create Key .pem from Key .p12
