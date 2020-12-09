@@ -20,3 +20,12 @@ server {
   return 444;
 }
 ```
+
+## Redirect www to non-www
+
+```
+server {
+    server_name www.example.com;
+    return 301 $scheme://example.com$request_uri;
+}
+```
