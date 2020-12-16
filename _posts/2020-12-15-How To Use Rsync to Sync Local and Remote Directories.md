@@ -31,3 +31,4 @@ rsync -av directory/ remote_user@hostname.com:/remote/path/
 
 For more information, See: 
 - https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories
+- https://unix.stackexchange.com/questions/127352/specify-identity-file-id-rsa-with-rsync
