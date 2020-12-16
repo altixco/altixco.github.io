@@ -21,6 +21,10 @@ rsync -av directory remote_user@hostname.com:/remote/path/
 ```
 > Which means copy the `directory` to the remote path
 
+> *-a* is for archive mode, corresponds to the options -rlptgoD all at the same time, ensures that symbolic links, devices, attributes, permissions, ownerships, etc. are preserved in the transfer.
+
+> *-v* means verbose
+
 In case you need to copy the contents of a directory then use
 ```
 rsync -av directory/ remote_user@hostname.com:/remote/path/
