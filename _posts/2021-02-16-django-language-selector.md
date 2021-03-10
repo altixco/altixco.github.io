@@ -5,6 +5,7 @@ author: Edison Arango
 
 ## Language Selector in Django:
 
+{% raw %}
 ```
 {% load i18n %}
 
@@ -23,6 +24,7 @@ author: Edison Arango
     <input type="submit" value="Go">
 </form>
 ```
+{% endraw %}
 
 ### See
 
