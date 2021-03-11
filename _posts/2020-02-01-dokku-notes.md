@@ -41,9 +41,11 @@ Tutorial to deploy to dokku from travis:
 
 Clear non stoped unused containers:
 
+{% raw %}
 ```
 docker ps -q --format={{.Names}} | grep -P '^\w+$|\.\d{10,}$' | xargs docker rm -f
 ```
+{% endraw %}
 
 ## NGINX config
 
