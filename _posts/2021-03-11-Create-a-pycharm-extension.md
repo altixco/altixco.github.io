@@ -11,7 +11,7 @@ Open IntelliJ IDEA and select New Project button
 
 Now in `Gradle` section select `IntelliJ Platform Plugin` and `Kotlin/JVM`:
 
-![alt text](/assets/img/plugin_select_gradle_intellijidea.png "Logo Title Text 1")
+![alt text](/assets/img/plugin_select_gradle_intellijidea.png "Select gradle")
 
 Press `Next` and set the project name.
 
@@ -74,19 +74,19 @@ class HelloAction: AnAction() {
 
 Open gradle tab located in the left and run `tasks/intellij/runide`:
 
-![alt text](/assets/img/plugin_gradle_runide_intellijidea.png "New package")
+![alt text](/assets/img/plugin_gradle_runide_intellijidea.png "Gradle runide")
 
 Now has been open a new IntelliJ IDEA window, then select the action:
 
-![alt text](/assets/img/plugin_menu_intellijidea.png "New package")
+![alt text](/assets/img/plugin_menu_intellijidea.png "Menu")
 
-Enter an APIKey an press `ok`
+Enter an APIKey an press `ok`:
 
-![alt text](/assets/img/plugin_enter_api_key_intellijidea.png "New package")
+![alt text](/assets/img/plugin_enter_api_key_intellijidea.png "Enter api key")
 
-Your APIKey has been saved an showed
+Now your APIKey has been saved an showed.
 
-![alt text](/assets/img/plugin_alert_apikey_intellijidea.png "New package")
+![alt text](/assets/img/plugin_alert_apikey_intellijidea.png "Alert apikey")
 
 
 ## See the code in [IntelliJ IDEA PLUGIN](https://github.com/altixco/intellijidea-plugin)
