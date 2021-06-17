@@ -90,3 +90,10 @@ Run the following command to link the storage directory for that app to the `/sr
 List bind mounts for app's container(s) (host:container)
 
 `dokku storage:list <app>`
+
+
+## How import a sql backup file in Dokku
+
+So you can use `postgres:import` [see here](https://github.com/dokku/dokku-postgres#import-a-dump-into-the-postgres-service-database) for any non-plain-text formats created by pg_dump. For .sql files you’ll need to feed directly `psql` thus using postgres:connect instead.
+
+`dokku postgres:connect app < file.sql`
