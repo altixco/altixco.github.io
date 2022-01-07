@@ -83,3 +83,8 @@ docker cp <container_id>:/path/to/folder /path/in/host
 ```
 docker update --restart=no my-container
 ```
+
+# Force Docker for a clean build of an image
+```
+docker-compose build --no-cache --pull
+```
